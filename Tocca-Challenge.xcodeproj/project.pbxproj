@@ -14,6 +14,7 @@
 		1307D64922DD302800CC14E5 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D64822DD302800CC14E5 /* CardViewController.swift */; };
 		1307D64B22DD34E600CC14E5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D64A22DD34E600CC14E5 /* ContactsViewController.swift */; };
 		1307D64D22DD352B00CC14E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D64C22DD352B00CC14E5 /* SettingsViewController.swift */; };
+		1307D65222DD386000CC14E5 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D65122DD386000CC14E5 /* UIView+Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1307D64822DD302800CC14E5 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		1307D64A22DD34E600CC14E5 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		1307D64C22DD352B00CC14E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1307D65122DD386000CC14E5 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1307D63322DD2C1C00CC14E5 /* Tocca-Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				1307D65022DD385100CC14E5 /* Extensions */,
 				1307D64F22DD37E400CC14E5 /* Resources */,
 				1307D64E22DD37CA00CC14E5 /* View Controllers */,
 			);
@@ -84,6 +87,14 @@
 				1307D64022DD2C1F00CC14E5 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1307D65022DD385100CC14E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1307D65122DD386000CC14E5 /* UIView+Layout.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			files = (
 				1307D63522DD2C1C00CC14E5 /* AppDelegate.swift in Sources */,
 				1307D64B22DD34E600CC14E5 /* ContactsViewController.swift in Sources */,
+				1307D65222DD386000CC14E5 /* UIView+Layout.swift in Sources */,
 				1307D64722DD2D2E00CC14E5 /* BaseTabBarController.swift in Sources */,
 				1307D64D22DD352B00CC14E5 /* SettingsViewController.swift in Sources */,
 				1307D64922DD302800CC14E5 /* CardViewController.swift in Sources */,
