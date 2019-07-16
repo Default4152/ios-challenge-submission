@@ -16,6 +16,8 @@
 		1307D64D22DD352B00CC14E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D64C22DD352B00CC14E5 /* SettingsViewController.swift */; };
 		1307D65222DD386000CC14E5 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D65122DD386000CC14E5 /* UIView+Layout.swift */; };
 		1307D65522DD614900CC14E5 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D65422DD614900CC14E5 /* CurvedView.swift */; };
+		1307D65722DD618D00CC14E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D65622DD618D00CC14E5 /* CardView.swift */; };
+		1307D65922DD9BCB00CC14E5 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307D65822DD9BCB00CC14E5 /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1307D64C22DD352B00CC14E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1307D65122DD386000CC14E5 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		1307D65422DD614900CC14E5 /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		1307D65622DD618D00CC14E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1307D65822DD9BCB00CC14E5 /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1307D65422DD614900CC14E5 /* CurvedView.swift */,
+				1307D65622DD618D00CC14E5 /* CardView.swift */,
+				1307D65822DD9BCB00CC14E5 /* RoundedImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 				1307D65222DD386000CC14E5 /* UIView+Layout.swift in Sources */,
 				1307D64722DD2D2E00CC14E5 /* BaseTabBarController.swift in Sources */,
 				1307D64D22DD352B00CC14E5 /* SettingsViewController.swift in Sources */,
+				1307D65722DD618D00CC14E5 /* CardView.swift in Sources */,
 				1307D64922DD302800CC14E5 /* CardViewController.swift in Sources */,
+				1307D65922DD9BCB00CC14E5 /* RoundedImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Conner.Tocca-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Conner.Tocca-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
