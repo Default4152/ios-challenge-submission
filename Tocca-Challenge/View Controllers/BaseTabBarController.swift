@@ -28,6 +28,6 @@ class BaseTabBarController: UITabBarController {
         settingsVC.tabBarItem.image = UIImage(named: "settings_icon")
         settingsVC.tabBarItem.title = "Settings"
         
-        viewControllers = [cardVC, contactsVC, settingsVC]
+        viewControllers = [contactsVC, cardVC, settingsVC]
     }
 }
